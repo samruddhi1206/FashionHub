@@ -1,0 +1,44 @@
+/* Upper Navbar */
+.upper-navbar {
+  background-color: #e6b980;
+  padding: 10px 20px;
+}
+
+.search-box {
+  position: relative;
+  width: 350px;
+}
+
+.search-box input {
+  padding-right: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+
+/* Lower Navbar */
+.lower-navbar {
+  background-color: #f8f8f7;
+}
+
+.lower-navbar .nav-link {
+  color: #333 !important;
+  margin: 0 10px;
+}
+.active-link{
+  color:  #eaad5c;
+}
+
+.lower-navbar .nav-link:hover {
+  color:  #eaad5c !important;
+}
+
+.dropdown-menu {
+  background-color: #e6b980;
+  border-radius: 8px;
+}

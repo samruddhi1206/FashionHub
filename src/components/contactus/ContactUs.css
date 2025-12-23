@@ -1,0 +1,20 @@
+.contact-left {
+  background: #e6b980;
+}
+
+.custom-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  color: #fff;
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+}

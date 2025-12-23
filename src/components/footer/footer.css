@@ -1,0 +1,33 @@
+.footer-section {
+  background-image: url(../../assets/footer-pattern.jpg);
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-link {
+  color: #bdbdbd;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #f5c16c;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+.social-icon:hover {
+  color: #f5c16c;
+}
+.footer-section p{
+  color: #bdbdbd;
+  font-size: 14px;
+}
