@@ -10,7 +10,7 @@ const AllProducts = () => {
 
       <Row>
         {products.map((item) => (
-          <Col md={2} sm={6} xs={12} key={item.id} className="mb-4">
+          <Col md={2} sm={4} xs={6} key={item.id} className="mb-4">
             <Card className="border-0">
               <Card.Img
                 src={item.image}
